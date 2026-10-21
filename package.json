@@ -1,0 +1,25 @@
+{
+  "name": "chatconnect-docs",
+  "version": "1.0.0",
+  "description": "Offizielle Dokumentation und Feature-Showcase für ChatConnect WebApp & App",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "chatconnect",
+    "docs",
+    "documentation",
+    "flutter",
+    "pwa",
+    "realtime-chat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
+
