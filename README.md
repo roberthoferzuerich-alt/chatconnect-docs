@@ -33,10 +33,7 @@ So veröffentlichst du dieses Verzeichnis als eigenes Repository auf GitHub:
 Öffne ein Terminal in diesem Ordner (`chatconnect-docs`) und führe folgende Befehle aus:
 
 ```bash
-git init -b main
-git add .
-git commit -m "feat: initial commit of ChatConnect documentation website"
-git remote add origin https://github.com/<DEIN-GITHUB-BENUTZERNAME>/chatconnect-docs.git
+git remote add origin https://github.com/roberthoferzuerich-alt/chatconnect-docs.git
 git push -u origin main
 ```
 
@@ -45,9 +42,10 @@ git push -u origin main
 2. Wähle unter **Build and deployment** bei **Source** die Option: **GitHub Actions**.
 3. Durch die bereits enthaltene Datei `.github/workflows/deploy.yml` wird deine Dokumentation ab sofort bei jedem `git push` vollautomatisch gebaut und unter:
    ```
-   https://<DEIN-GITHUB-BENUTZERNAME>.github.io/chatconnect-docs/
+   https://roberthoferzuerich-alt.github.io/chatconnect-docs/
    ```
    veröffentlicht!
+
 
 ---
 

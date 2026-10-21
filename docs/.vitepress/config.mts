@@ -18,6 +18,10 @@ export default defineConfig({
       { text: '🚀 WebApp öffnen', link: 'https://rhz.internet-box.ch:8443' }
     ],
 
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/roberthoferzuerich-alt/chatconnect-docs' }
+    ],
+
     sidebar: [
       {
         text: '📖 Erste Schritte',
